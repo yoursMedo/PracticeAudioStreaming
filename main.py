@@ -28,6 +28,7 @@ async def main():
     "Audio Streaming"
     }
 
+#  Simple Audio Streaming without seek
 @app.get("/music")
 async def main(id: int = 1):
     if id == 1:
